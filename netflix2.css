@@ -1,0 +1,1589 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+/*first box starts from here*/
+.box1{
+    background-image: url("netflix_background2.jpg");
+    background-size:cover;
+    box-shadow:inset 0px 80px 150px -10px black,
+               inset 0px -80px 150px -10px black; 
+    height: 100%;
+    width: 100%;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -15px;
+}
+.logo{
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+} 
+.top-right{
+    position: absolute;
+    right: 3%;
+} 
+.select{
+    color: white;
+    background-color: rgba(0,0,0,.6);
+    height: 25px;
+    width: 100px;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 18px;
+    border: 0.1px solid;
+}
+.button1{
+    color: white;
+    background-color: red;
+    height: 27px;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 60px;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.head1{
+    color: white;
+    font-size:18px;
+    font-family: Roboto;
+    text-align: center;
+    padding-top:65px ;
+    letter-spacing: 1.5px;
+}
+.description1{
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+}
+.description2{
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input1{
+    font-size: 15px;
+    width:85%;
+    height: 40px;
+    margin-top: 12px;
+    outline: none;
+    border-radius: 3px;
+    border-color: transparent;
+    padding-left: 10px;
+}
+.button2{
+    color: white;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    outline: none;
+    border-color: transparent;
+    margin-top: 5px;
+    cursor: pointer;
+}
+hr{
+    background-color: #363635;
+    height: 6px;
+    border-color: transparent;
+}
+/*second box starts from here*/
+.box2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.box2 h1{
+    color: white;
+    font-family: Roboto;
+    padding-top: 40px;
+    text-align: center;
+    font-size:25px;
+}
+.box2 p{
+    padding-top: 15px;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+.vid1{
+    position: relative;
+}
+.box2 video{
+    width: 74%;
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    z-index: -1;
+}
+.box2 img{
+    width: 100%;
+    background-color: transparent;
+}
+/*third box starts from here*/
+.box3{
+    width: 100%;
+    height: 100%;
+}
+.box3 h1{
+    color: white;
+    font-family: Roboto;
+    padding-top: 40px;
+    text-align: center;
+    font-size:25px;
+}
+.box3 p{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+.img-phone{
+    width: 100%;
+}
+
+/*fourth box starts from here*/
+.box4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.box4 h1{
+    color: white;
+    font-family: Roboto;
+    padding-top: 40px;
+    text-align: center;
+    font-size:27px;
+}
+.box4 p{
+    padding-top: 20px;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+.vid2{
+    position: relative;
+}
+.box4 video{
+    width: 63%;
+    position: absolute;
+    top: 9.5%;
+    left: 17.5%;
+    z-index: -1;
+}
+.box4 img{
+    width: 100%;
+}
+/*fifth box starts from here*/
+.box5{
+    width:100%;
+    height: 100%;
+}
+.box5 h1{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 40px;
+}
+.box5 p{
+    font-family: Roboto;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.img-children{
+    width: 100%;
+}
+/*sixth box starts from here*/
+.box6{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.head6{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+.acco-pos{
+    padding-top: 15px;
+}
+.accordion{
+    background-color: #3f3f3e;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 55px;
+    font-family: Roboto;
+    font-size: 17px;
+    margin-top: 8px;
+    text-align: left;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.accordion img{
+    height: 20px;
+    position: absolute;
+    right: 3%;
+}
+.active, .accordion:hover {
+    background-color: #3f3f3e; 
+}
+.answer{
+    display: none;
+    overflow: hidden;
+    color: white;
+    background-color: #3f3f3e;
+    font-family: Roboto;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    border-top: 1px solid black;
+    letter-spacing: 1px;
+}
+
+.description-last{
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+    letter-spacing: 0.5px;
+}
+.email2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input2{
+    font-size: 15px;
+    width:85%;
+    height: 40px;
+    outline: none;
+    border-radius: 3px;
+    border-color: transparent;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.button3{
+    color: white;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
+    outline: none;
+    border-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*seventh box starts from here*/
+.box7{
+    width: 100%;
+    height: 100%;
+    color: #777773;
+}
+.box7 h4{
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 40px;
+}
+.wrap{
+    display: flex;
+    flex-direction:row;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#col1{
+    display: flex;
+    flex-direction: column;
+}
+#col2{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    margin-top: 0px;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.box7 button{
+    font-size: 12px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #777773;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+/* .box7 button:hover{
+    background-color: honeydew;
+    color: black;
+} */
+.select2{
+    color: #777773;
+    background-color: black;
+    margin:30px 0px 0px 65px;
+    height: 50px;
+    width: 130px;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 25px;
+}
+#text-last{
+    padding: 20px 0px 0px 65px;
+    font-family: Roboto;
+}
+
+
+
+
+
+@media only screen and (min-width:413px){
+    .top-row{
+        margin-top: -15px;
+    }
+    .logo{
+        width: 100px;
+        height: 110px;
+        margin-left: 12px;
+    }
+    .select{
+        height: 30px;
+    }
+    .button1{
+        height: 30px;
+    }
+    .head1{
+        font-size:20px;
+        letter-spacing: 1.5px;
+    }
+    
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 55px;
+        margin-top: 30px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: column;
+    }
+    #col2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .select2{
+        color: #777773;
+        background-color: black;
+        margin:30px 0px 0px 83px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 20px 0px 0px 83px;
+        font-family: Roboto;
+    }
+}
+
+
+@media only screen and (min-width:499px){
+    .box1{
+        box-shadow:inset 0px 100px 150px -10px black,
+                   inset 0px -100px 150px -10px black; 
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .top-right{
+        position: absolute;
+        right: 5%;
+    }
+    .head1{
+        font-size:25px;
+        letter-spacing: 1.5px;
+        padding-top: 55px;
+    }
+    .box2 h1{
+        font-size:30px;
+    }
+    .box3 h1{
+        font-size:30px;
+        letter-spacing: 1px;
+    }
+    .box4 h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .box5 h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: column;
+    }
+    #col2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+    list-style-type: none;
+    }
+    .box7 button{
+        font-size: 16px;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #777773;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        cursor:pointer;
+        }
+    .select2{
+        color: #777773;
+        background-color: black;
+        margin:30px 0px 0px 78px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 20px 0px 0px 76px;
+        font-family: Roboto;
+    }
+}
+
+
+
+@media only screen and (min-width:549px){
+    .box1{
+        box-shadow:inset 0px 120px 150px -10px black,
+                   inset 0px -120px 150px -10px black;
+    }
+    .top-row{
+        margin-top: -17px;
+    }
+    .logo{
+        width: 130px;
+        margin-left: 45px;
+        height: 125px;
+    }
+    .top-right{
+        position: absolute;
+        right: 8%;
+    } 
+    .select{
+        height: 35px;
+    }
+    .button1{
+        height: 35px;
+        width: 80px;
+        margin-left: 12px;
+    }
+    .head1{
+        font-size:33px;
+        padding-top:100px ;
+        letter-spacing: 1.5px;
+    }
+    .description1{
+        font-size: 27px;
+        padding-top: 20px;
+        letter-spacing: 0px;
+    }
+    .description2{
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    .input1{
+        width:80%;
+        height: 45px;
+    }
+    .button2{
+        height: 45px;
+        width: 130px;
+        margin-top: 0px;
+    }
+    .box2{
+        position: relative;
+    }
+    .box2 h1{
+        color: white;
+        padding-top: 65px;
+        font-size:40px;
+    }
+    .box2 p{
+        font-size: 20px;
+    }
+    .box2 video{
+        width: 60%;
+        position: absolute;
+        top: 19.3%;
+        left: 19.8%;
+        z-index: -1;
+    }
+    .box2 img{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .box3{
+        position: relative;
+    }
+    .box3 h1{
+        padding-top: 65px;
+        font-size:40px;
+    }
+    .box3 p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .img-phone{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .box4 h1{
+        padding-top: 65px;
+        font-size:40px;
+    }
+    .box4 p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .box4 video{
+        width: 57%;
+        position: absolute;
+        top: 12%;
+        left: 20%;
+    }
+    .box4 img{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .box5 h1{
+        font-size:35px;
+        padding-top: 65px;
+    }
+    .box5 p{
+        font-size: 20px;
+    }
+    .img-children{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .head6{
+        padding-top: 65px;
+        font-size: 20px;
+    }
+    .acco-pos{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .accordion{
+        height: 60px;
+        font-size: 20px;
+        margin-top: 10px;
+        padding-left: 25px;
+    }
+    .accordion img{
+        height: 22px;
+        position: absolute;
+        right: 14%;
+    }
+    .answer{
+        font-size: 19px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom:15px ;
+    }
+    
+    .description-last{
+        font-size: 20px;
+        margin-top: 27px;
+    }
+    .email2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input2{
+        width:80%;
+        height: 45px;
+    }
+    .button3{
+        color: white;
+        background-color: red;
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        height: 45px;
+        width: 130px;
+        margin-top: 5px;
+    }
+    .box7{
+        position: relative;
+    }
+    .box7 h4{
+        font-size: 18px;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .select2{
+        margin:30px 0px 0px 20px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 20px;
+        font-family: Roboto;
+    }
+}
+
+
+
+@media only screen and (min-width:619px){
+    .box1{
+        box-shadow:inset 0px 130px 160px -10px black,
+                   inset 0px -130px 160px -10px black;
+    }
+    .input1{
+        width:75%;
+        height: 45px;
+    }
+    .input2{
+        width:75%;
+        height: 45px;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .select2{
+        margin:30px 0px 0px 30px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 30px;
+        font-family: Roboto;
+    }
+}
+@media only screen and (min-width:670px){
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .select2{
+        margin:30px 0px 0px 40px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 40px;
+        font-family: Roboto;
+    }
+}
+@media only screen and (min-width:739px){
+    .box1{
+        box-shadow:inset 0px 140px 160px -10px black,
+                   inset 0px -140px 160px -10px black;
+    }
+    .input1{
+        width:65%;
+        height: 55px;
+    }
+    .input2{
+        width:65%;
+        height: 55px;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .select2{
+        margin:30px 0px 0px 55px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 55px;
+        font-family: Roboto;
+    }
+}
+@media only screen and (min-width:779px){
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    .select2{
+        margin:30px 0px 0px 65px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 65px;
+        font-family: Roboto;
+    }
+}
+@media only screen and (min-width:849px){
+    .box1{
+        box-shadow:inset 0px 140px 160px -10px black,
+                   inset 0px -140px 160px -10px black;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+    .select2{
+        margin:30px 0px 0px 75px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 75px;
+        font-family: Roboto;
+    }
+}
+@media only screen and (min-width:919px){
+    .box1{
+        box-shadow:inset 0px 160px 170px -10px black,
+                   inset 0px -160px 180px -10px black;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+    .select2{
+        margin:30px 0px 0px 85px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 85px;
+        font-family: Roboto;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:949px){
+    .top-row{
+        margin-top: -35px;
+    }
+    .logo{
+        width: 150px;
+        height: 160px;
+        margin-left: 50px;
+    }
+    .top-right{
+        position: absolute;
+        right: 7%;
+    } 
+    .select{
+        height: 37px;
+        width: 100px;
+        padding-left: 18px;
+    }
+    .button1{
+        height: 37px;
+        width: 85px;
+        margin-left: 25px;
+    }
+    .head1{
+        font-size:35px;
+        padding-top:110px;
+    }
+    .description1{
+        color: white;
+        font-family: Roboto;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 0.5px;
+    }
+    .description2{
+        font-size: 20px;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        margin-left: 16.8%;
+        margin-top: 10px;
+    }
+    .input1{
+        width:50%;
+        height: 60px;
+        border: 1px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .button2{
+        font-size: 23px;
+        height: 60px;
+        width: 30%;
+        margin-top: 11px;
+        border: none;
+        border-left: 1.5px solid gray;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .box2{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    #hi{
+        margin-left: 60px;
+        width: 100%;
+    }
+    .box2 h1{
+        width: 150%;
+        color: white;
+        padding-top: 110px;
+        font-size:45px;
+        text-align: left;
+    }
+    .box2 p{
+        width: 150%;
+        padding-top: 20px;
+        text-align: left;
+        font-family: Roboto;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 23px;
+    }
+    .box2 video{
+        width: 105%;
+        position: absolute;
+        top: 16.8%;
+        left: 28%;
+        z-index: -1;
+    }
+    .box2 img{
+        width: 140%;
+        padding-bottom: 85px;
+    }
+    .box3{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+    }
+    .hi2{
+        width: 100%;
+        padding-right: 0%;
+        margin-left: 60px;
+    }
+    .img-phone{
+        width:50%;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .box3 h1{
+        width: 150%;
+        color: white;
+        font-family: Roboto;
+        padding-top: 110px;
+        text-align: left;
+        font-size:41px;
+    }
+    .box3 p{
+        width: 150%;
+        padding-top: 20px;
+        text-align: left;
+        font-family: Roboto;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 23px;
+    }
+    .box4{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    #hi4{
+        width: 100%;
+        padding-right: 0%;
+        margin-left: 60px;
+    }
+    .box4 h1{
+        width: 150%;
+        color: white;
+        padding-top: 100px;
+        font-size:45px;
+        text-align: left;
+    }
+    .box4 p{
+        width: 150%;
+        padding-top: 20px;
+        text-align: left;
+        font-family: Roboto;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 23px;
+    }
+    .box4 video{
+        width: 90%;
+        position: absolute;
+        top: 15%;
+        left: 29%;
+        z-index: -1;
+    }
+    .box4 img{
+        width: 140%;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .box5{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+    }
+    .hi3{
+        width: 100%;
+        padding-right: 0%;
+        margin-left: 80px;
+    }
+    .box5 h1{
+        width: 150%;
+        color: white;
+        font-family: Roboto;
+        padding-top: 80px;
+        text-align: left;
+        font-size:45px;
+    }
+    .box5 p{
+        width: 170%;
+        padding-top: 20px;
+        text-align: left;
+        font-family: Roboto;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 23px;
+    }
+    .img-children{
+        width:50%;
+        margin-left: 55px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .box6{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .head6{
+        color: white;
+        font-family: Roboto;
+        text-align: center;
+        padding-top: 70px;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+    .acco-pos{
+        padding-top: 20px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .accordion{
+        height: 70px;
+        font-size: 25px;
+        margin-top: 7px;
+        padding-left: 30px;
+    }
+    .accordion img{
+        height: 22px;
+        position: absolute;
+        right: 18%;
+    }
+    .answer{
+        font-size: 24px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom:15px ;
+    }
+    .description-last{
+        font-size: 20px;
+    }
+    .email2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        margin-left: 16.8%;
+        margin-top: 10px;
+    }
+    .input2{
+        width:50%;
+        height: 60.1px;
+        border: 1px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px; 
+    }
+    .button3{
+        font-size: 23px;
+        height: 60px;
+        width: 30%;
+        margin-top: 15px;
+        border: none;
+        border-left: 1.5px solid gray;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .wrap{
+        display: flex;
+        flex-direction:row;
+        margin-left: 0px;
+    }
+    .box7 h4{
+        font-size: 21px;
+    }
+    #col1{
+        display: flex;
+        flex-direction: row;
+    }
+    #col2{
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        margin-top: 0px;
+        }
+    li{
+        list-style-type: none;
+    }
+    .box7 button{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .select2{
+        margin:30px 0px 0px 95px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    #text-last{
+        padding: 10px 0px 0px 95px;
+        font-family: Roboto;
+    }
+}
+
+
+
+@media only screen and (min-width:1050px){
+    .box7 button{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 80px;
+        }
+    .select2{
+        margin:30px 0px 0px 100px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+        }
+    #text-last{
+        padding: 10px 0px 0px 100px;
+        font-family: Roboto;
+        }
+    .hi3{
+        width: 100%;
+        padding-right: 0%;
+        margin-left: 110px;
+        }
+    .box5 h1{
+        width: 170%;
+        color: white;
+        font-family: Roboto;
+        padding-top: 120px;
+        text-align: left;
+        font-size:45px;
+        }
+    .box5 p{
+        width: 170%;
+        padding-top: 20px;
+        text-align: left;
+        font-family: Roboto;
+        color: white;
+        letter-spacing: 0.5px;
+        font-size: 23px;
+        }
+    .img-children{
+        width:50%;
+        margin-left: 70px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        } 
+}
+
+
+
+@media only screen and (min-width:1100px){
+    .box1{
+        box-shadow:inset 0px 170px 170px -10px black,
+                   inset 0px -170px 180px -10px black;
+    }
+    #hi{
+        margin-left: 140px;
+        width: 100%;
+    }
+    #hi4{
+        width: 100%;
+        padding-right: 0%;
+        margin-left: 140px;
+    }
+    .box7 button{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 90px;
+        }
+    .select2{
+        margin:30px 0px 0px 110px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+        }
+    #text-last{
+        padding: 10px 0px 0px 110px;
+        font-family: Roboto;
+        }
+}
+
+
+
+
+@media only screen and (min-width:1180px){
+    
+    .box7 button{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 100px;
+        }
+    .select2{
+        margin:30px 0px 0px 120px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 15px;
+        padding-left: 25px;
+        }
+    #text-last{
+        padding: 10px 0px 0px 120px;
+        font-family: Roboto;
+        }
+}
+
+
+@media only screen and (min-width:1249px){
+    .head1{
+        font-size:40px;
+    }
+    .description1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .description2{
+        font-size: 23px;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    .input1{
+        width:50%;
+        height: 60px;
+        border: 1px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .button2{
+        font-size: 23px;
+        height: 60px;
+        width: 20%;
+        margin-top: 11px;
+        border: none;
+        border-left: 1.5px solid gray;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .box2 h1{
+        font-size:50px;
+    }
+    .box2 p{
+        font-size: 27px;
+    }
+    .box3 h1{
+        font-size:45px;
+    }
+    .box3 p{
+        font-size: 27px;
+    } 
+    .box7 h4{
+        font-size: 25px;
+    }
+    .box4 h1{
+        font-size:50px;
+    }
+    .box4 p{
+        font-size: 27px;
+    }
+    .box5 h1{
+        font-size:50px;
+    }
+    .box5 p{
+        font-size: 27px;
+    }
+    .box7 button{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 110px;
+        }
+    .select2{
+        margin:30px 0px 0px 130px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 18px;
+        padding-left: 25px;
+        }
+    #text-last{
+        padding: 10px 0px 0px 130px;
+        font-family: Roboto;
+        }
+    .acco-pos{
+        padding-top: 20px;
+        width: 60%;
+        margin-left: 20%;
+        }
+    .accordion{
+        height: 70px;
+        font-size: 27px;
+        margin-top: 7px;
+        padding-left: 30px;
+        }
+    .accordion img{
+        height: 22px;
+        position: absolute;
+        right: 22%;
+        }
+    .answer{
+        font-size: 26px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom:15px ;
+        }
+    .description-last{
+        font-size: 23px;
+        }
+    .email2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        margin-left: 25%;
+        margin-top: 10px;
+        }
+    .input2{
+        width:50%;
+        height: 60.1px;
+        border: 1px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        }
+    .button3{
+        font-size: 23px;
+        height: 60px;
+        width: 20%;
+        margin-top: 15px;
+        border: none;
+        border-left: 1.5px solid gray;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        }    
+}
+
+
+@media only screen and (min-width:1330px){
+    .box3 h1{
+        font-size:45px;
+        padding-top: 150px;
+    }
+    .box7 button{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 145px;
+        }
+    .select2{
+        margin:30px 0px 0px 165px;
+        height: 50px;
+        width: 130px;
+        font-family: Roboto;
+        font-size: 18px;
+        padding-left: 25px;
+        }
+    #text-last{
+        padding: 10px 0px 0px 165px;
+        font-family: Roboto;
+        }
+    .accordion{
+        height: 85px;
+        font-size: 27px;
+        margin-top: 10px;
+        padding-left: 30px;
+            }
+}
+
+
+
+
